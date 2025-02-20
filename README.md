@@ -45,14 +45,6 @@ View results and visualizations.
 
 
 Results
-Random Forest achieved:
-
-Accuracy: ~99%
-AUC-ROC: 0.99
-CART Algorithm achieved:
-
-Accuracy: ~95%
-AUC-ROC: 0.90
 
 ![Screenshot 2025-02-20 130118](https://github.com/user-attachments/assets/479a294a-9240-4d35-9dc5-653031a6a344)
 
