@@ -1,4 +1,4 @@
-# credit-card-fraud-detection
+# credit-card-fraud-detection using random forest and cart algorithm
 random forest &amp; cart algorithm
 Credit Card Fraud Detection
 This project aims to detect fraudulent transactions using machine learning algorithms, specifically Random Forest and CART (Classification and Regression Trees). By analyzing transaction patterns, the system classifies whether a transaction is fraudulent or legitimate, helping reduce financial losses and improve security.
