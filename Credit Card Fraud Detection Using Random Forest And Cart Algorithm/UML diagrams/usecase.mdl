@@ -1,0 +1,439 @@
+
+(object Petal
+    version    	42
+    _written   	"Rose 4.5.8054a"
+    charSet    	0)
+
+(object Design "Logical View"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"5E9B89DD0394"
+    defaults   	(object defaults
+	rightMargin 	0.250000
+	leftMargin 	0.250000
+	topMargin  	0.250000
+	bottomMargin 	0.500000
+	pageOverlap 	0.250000
+	clipIconLabels 	TRUE
+	autoResize 	TRUE
+	snapToGrid 	TRUE
+	gridX      	16
+	gridY      	16
+	defaultFont 	(object Font
+	    size       	10
+	    face       	"Arial"
+	    bold       	FALSE
+	    italics    	FALSE
+	    underline  	FALSE
+	    strike     	FALSE
+	    color      	0
+	    default_color 	TRUE)
+	showMessageNum 	1
+	showClassOfObject 	TRUE
+	notation   	"Unified")
+    root_usecase_package 	(object Class_Category "Use Case View"
+	quid       	"5E9B89DD0396"
+	exportControl 	"Public"
+	global     	TRUE
+	logical_models 	(list unit_reference_list
+	    (object Class "User"
+		quid       	"5E9B89E603D8"
+		stereotype 	"Actor")
+	    (object UseCase "Upload Credit Card Dataset"
+		quid       	"5E9B89ED017F")
+	    (object UseCase "Generate Train and Test Model"
+		quid       	"5E9B8A0802D0")
+	    (object UseCase "Run Random Forest Algorithm"
+		quid       	"5E9B8A1F0080")
+	    (object UseCase "Detect Fraud From Test Data"
+		quid       	"5E9B8A3200C5")
+	    (object UseCase "Clean And Fraud Transaction Graph"
+		quid       	"5E9B8A4A025D")
+	    (object UseCase "Exit"
+		quid       	"5E9B8A6502E0")
+	    (object Association "$UNNAMED$0"
+		quid       	"5E9B8A7703A3"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$1"
+			quid       	"5E9B8A7902E4"
+			supplier   	"Use Case View::Upload Credit Card Dataset"
+			quidu      	"5E9B89ED017F"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$2"
+			quid       	"5E9B8A7902E5"
+			supplier   	"Use Case View::User"
+			quidu      	"5E9B89E603D8")))
+	    (object Association "$UNNAMED$3"
+		quid       	"5E9B8A7D006A"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$4"
+			quid       	"5E9B8A7E01E9"
+			supplier   	"Use Case View::Generate Train and Test Model"
+			quidu      	"5E9B8A0802D0"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$5"
+			quid       	"5E9B8A7E01EA"
+			supplier   	"Use Case View::User"
+			quidu      	"5E9B89E603D8")))
+	    (object Association "$UNNAMED$6"
+		quid       	"5E9B8A8101FE"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$7"
+			quid       	"5E9B8A820119"
+			supplier   	"Use Case View::Run Random Forest Algorithm"
+			quidu      	"5E9B8A1F0080"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$8"
+			quid       	"5E9B8A82011A"
+			supplier   	"Use Case View::User"
+			quidu      	"5E9B89E603D8")))
+	    (object Association "$UNNAMED$9"
+		quid       	"5E9B8A840394"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$10"
+			quid       	"5E9B8A850378"
+			supplier   	"Use Case View::Detect Fraud From Test Data"
+			quidu      	"5E9B8A3200C5"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$11"
+			quid       	"5E9B8A850379"
+			supplier   	"Use Case View::User"
+			quidu      	"5E9B89E603D8")))
+	    (object Association "$UNNAMED$12"
+		quid       	"5E9B8A8802F0"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$13"
+			quid       	"5E9B8A8A0332"
+			supplier   	"Use Case View::Clean And Fraud Transaction Graph"
+			quidu      	"5E9B8A4A025D"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$14"
+			quid       	"5E9B8A8A0333"
+			supplier   	"Use Case View::User"
+			quidu      	"5E9B89E603D8")))
+	    (object Association "$UNNAMED$15"
+		quid       	"5E9B8A8D034C"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$16"
+			quid       	"5E9B8A8F00A7"
+			supplier   	"Use Case View::Exit"
+			quidu      	"5E9B8A6502E0"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$17"
+			quid       	"5E9B8A8F00A8"
+			supplier   	"Use Case View::User"
+			quidu      	"5E9B89E603D8"))))
+	logical_presentations 	(list unit_reference_list
+	    (object UseCaseDiagram "Main"
+		quid       	"5E9B89DD03DC"
+		title      	"Main"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list
+		    (object UseCaseView "Use Case View::Upload Credit Card Dataset" @1
+			location   	(1504, 112)
+			label      	(object ItemLabel
+			    Parent_View 	@1
+			    location   	(1504, 250)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	633
+			    justify    	0
+			    label      	"Upload Credit Card Dataset")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	12058623
+			quidu      	"5E9B89ED017F"
+			height     	118
+			autoResize 	TRUE)
+		    (object UseCaseView "Use Case View::Generate Train and Test Model" @2
+			location   	(1520, 352)
+			label      	(object ItemLabel
+			    Parent_View 	@2
+			    location   	(1520, 490)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	633
+			    justify    	0
+			    label      	"Generate Train and Test Model")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	12058623
+			quidu      	"5E9B8A0802D0"
+			height     	118
+			autoResize 	TRUE)
+		    (object UseCaseView "Use Case View::Run Random Forest Algorithm" @3
+			location   	(1536, 624)
+			label      	(object ItemLabel
+			    Parent_View 	@3
+			    location   	(1536, 762)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	633
+			    justify    	0
+			    label      	"Run Random Forest Algorithm")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	12058623
+			quidu      	"5E9B8A1F0080"
+			height     	118
+			autoResize 	TRUE)
+		    (object UseCaseView "Use Case View::Detect Fraud From Test Data" @4
+			location   	(1568, 880)
+			label      	(object ItemLabel
+			    Parent_View 	@4
+			    location   	(1568, 1018)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	633
+			    justify    	0
+			    label      	"Detect Fraud From Test Data")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	12058623
+			quidu      	"5E9B8A3200C5"
+			height     	118
+			autoResize 	TRUE)
+		    (object UseCaseView "Use Case View::Clean And Fraud Transaction Graph" @5
+			location   	(1584, 1152)
+			label      	(object ItemLabel
+			    Parent_View 	@5
+			    location   	(1584, 1290)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	633
+			    justify    	0
+			    label      	"Clean And Fraud Transaction Graph")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	12058623
+			quidu      	"5E9B8A4A025D"
+			height     	118
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Use Case View::User" @6
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(592, 688)
+			label      	(object ItemLabel
+			    Parent_View 	@6
+			    location   	(592, 848)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	327
+			    justify    	0
+			    label      	"User")
+			icon       	"Actor"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	12058623
+			quidu      	"5E9B89E603D8"
+			annotation 	8
+			autoResize 	TRUE)
+		    (object AssociationViewNew "$UNNAMED$0" @7
+			location   	(949, 459)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E9B8A7703A3"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$1" @8
+				Parent_View 	@7
+				location   	(213, -213)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5E9B8A7902E4"
+				client     	@7
+				supplier   	@1
+				line_style 	0)
+			    (object RoleView "$UNNAMED$2" @9
+				Parent_View 	@7
+				location   	(213, -213)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5E9B8A7902E5"
+				client     	@7
+				supplier   	@6
+				line_style 	0)))
+		    (object AssociationViewNew "$UNNAMED$3" @10
+			location   	(942, 558)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E9B8A7D006A"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$4" @11
+				Parent_View 	@10
+				location   	(206, -114)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5E9B8A7E01E9"
+				client     	@10
+				supplier   	@2
+				line_style 	0)
+			    (object RoleView "$UNNAMED$5" @12
+				Parent_View 	@10
+				location   	(206, -114)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5E9B8A7E01EA"
+				client     	@10
+				supplier   	@6
+				line_style 	0)))
+		    (object AssociationViewNew "$UNNAMED$6" @13
+			location   	(1037, 654)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E9B8A8101FE"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$7" @14
+				Parent_View 	@13
+				location   	(301, -18)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5E9B8A820119"
+				client     	@13
+				supplier   	@3
+				line_style 	0)
+			    (object RoleView "$UNNAMED$8" @15
+				Parent_View 	@13
+				location   	(301, -18)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5E9B8A82011A"
+				client     	@13
+				supplier   	@6
+				line_style 	0)))
+		    (object AssociationViewNew "$UNNAMED$9" @16
+			location   	(1053, 776)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E9B8A840394"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$10" @17
+				Parent_View 	@16
+				location   	(317, 104)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5E9B8A850378"
+				client     	@16
+				supplier   	@4
+				line_style 	0)
+			    (object RoleView "$UNNAMED$11" @18
+				Parent_View 	@16
+				location   	(317, 104)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5E9B8A850379"
+				client     	@16
+				supplier   	@6
+				line_style 	0)))
+		    (object AssociationViewNew "$UNNAMED$12" @19
+			location   	(1060, 905)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E9B8A8802F0"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$13" @20
+				Parent_View 	@19
+				location   	(324, 233)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5E9B8A8A0332"
+				client     	@19
+				supplier   	@5
+				line_style 	0)
+			    (object RoleView "$UNNAMED$14" @21
+				Parent_View 	@19
+				location   	(324, 233)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5E9B8A8A0333"
+				client     	@19
+				supplier   	@6
+				line_style 	0)))
+		    (object UseCaseView "Use Case View::Exit" @22
+			location   	(1600, 1440)
+			label      	(object ItemLabel
+			    Parent_View 	@22
+			    location   	(1600, 1578)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	633
+			    justify    	0
+			    label      	"Exit")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	12058623
+			quidu      	"5E9B8A6502E0"
+			height     	118
+			autoResize 	TRUE)
+		    (object AssociationViewNew "$UNNAMED$15" @23
+			location   	(1085, 1055)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5E9B8A8D034C"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$16" @24
+				Parent_View 	@23
+				location   	(349, 383)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5E9B8A8F00A7"
+				client     	@23
+				supplier   	@22
+				line_style 	0)
+			    (object RoleView "$UNNAMED$17" @25
+				Parent_View 	@23
+				location   	(349, 383)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5E9B8A8F00A8"
+				client     	@23
+				supplier   	@6
+				line_style 	0)))))))
+    root_category 	(object Class_Category "Logical View"
+	quid       	"5E9B89DD0395"
+	exportControl 	"Public"
+	global     	TRUE
+	subsystem  	"Component View"
+	quidu      	"5E9B89DD0397"
+	logical_models 	(list unit_reference_list)
+	logical_presentations 	(list unit_reference_list
+	    (object ClassDiagram "Main"
+		quid       	"5E9B89DD039D"
+		title      	"Main"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list))))
+    root_subsystem 	(object SubSystem "Component View"
+	quid       	"5E9B89DD0397"
+	physical_models 	(list unit_reference_list)
+	physical_presentations 	(list unit_reference_list
+	    (object Module_Diagram "Main"
+		quid       	"5E9B89DD03DB"
+		title      	"Main"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list))))
+    process_structure 	(object Processes
+	quid       	"5E9B89DD0398"
+	ProcsNDevs 	(list
+	    (object Process_Diagram "Deployment View"
+		quid       	"5E9B89DD039A"
+		title      	"Deployment View"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list))))
+    properties 	(object Properties
+	quid       	"5E9B89DD0399"))
