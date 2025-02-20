@@ -55,6 +55,8 @@ Accuracy: ~95%
 AUC-ROC: 0.90
 
 ![Screenshot 2025-02-20 130118](https://github.com/user-attachments/assets/479a294a-9240-4d35-9dc5-653031a6a344)
+
+this is the final look of this project.
 ![Screenshot 2025-02-20 130923](https://github.com/user-attachments/assets/daca91bc-677b-480d-8c3d-84c9a984a161)
 
 
