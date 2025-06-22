@@ -1,4 +1,4 @@
-# Credit-card-fraud-detection using random forest and cart algorithm
+# 🛡️Credit-card-fraud-detection using random forest and cart algorithm
 random forest &amp; cart algorithm
 Credit Card Fraud Detection
 This project aims to detect fraudulent transactions using machine learning algorithms, specifically Random Forest and CART (Classification and Regression Trees). By analyzing transaction patterns, the system classifies whether a transaction is fraudulent or legitimate, helping reduce financial losses and improve security.
@@ -6,7 +6,7 @@ This project aims to detect fraudulent transactions using machine learning algor
 ##Introduction
 Fraudulent credit card transactions account for significant financial losses worldwide. This project provides an efficient solution using supervised machine learning techniques to classify fraudulent and legitimate transactions. The focus is on building models using Random Forest and CART algorithms to achieve high accuracy in detection.
 
-##Technologies Used
+## 🧰 Technologies Used
 Programming Language: Python
 Libraries:
 NumPy
@@ -25,7 +25,7 @@ Class: Target variable (0 = Legitimate, 1 = Fraudulent).
 You can download the dataset from Kaggle's Credit Card Fraud Detection dataset.
 
 
-#How to Run
+# ⚙️How to Run
 Clone the repository:
 git clone https://github.com/your-username/credit-card-fraud-detection.git  
 cd credit-card-fraud-detection  
